@@ -1,0 +1,30 @@
+{
+  "name": "react-oauth-providers",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format cjs,esm --dts --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "oauth-pkce": "^0.0.7"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "tsup": "^7.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "oauth-providers",
+    "react-oauth-providers",
+    "google-oauth-provider"
+  ],
+  "author": "Asif Sorowar"
+}
